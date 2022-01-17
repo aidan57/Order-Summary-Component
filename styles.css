@@ -19,7 +19,7 @@ img {
 }
 
 li {	
-	list-style: none
+	list-style: none;
 }
 
 body {
@@ -35,6 +35,7 @@ body {
 }
 
 .container {
+	overflow:hidden;
 	display: flex;
 	position: relative;
 	flex-direction: column;
